@@ -95,38 +95,6 @@ namespace ConsoleApplication2
 
                 factCurrent *= 1;
 
-
-
-
-                /*if(b.unactive)
-                    continue;
-                int waitTime = b.startTime - timeStart % b.startTime;
-                if(waitTime < bestDif)
-                {
-                    res = waitTime * b.startTime;
-                    bestDif = waitTime;
-                }*/
-            }
-
-            List<long> modilo = new List<long>();
-            for (int j = 0; j < allBus.Count; j++)
-            {
-                bus b = allBus[j];
-                if (b.unactive)
-                    continue;
-
-                modilo.Add(res % b.startTime);
-
-            }
-
-
-
-
-            for (int j = 0; j < allBus.Count; j++)
-            {
-            }
-            for (int k = 0; k < allBus.Count; k++)
-            {
             }
 
             return res;
